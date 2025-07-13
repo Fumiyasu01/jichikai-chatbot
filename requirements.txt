@@ -1,6 +1,10 @@
-Flask==2.3.3
+Flask>=2.3.0
 line-bot-sdk>=3.0.0
 openai>=1.0.0
-PyPDF2>=3.0.0
 gunicorn>=21.0.0
 python-dotenv>=1.0.0
+
+# --- RAG実装のために追加 ---
+langchain>=0.1.0
+pinecone-client>=3.0.0
+pypdf>=3.0.0
